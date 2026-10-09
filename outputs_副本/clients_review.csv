@@ -1,0 +1,5 @@
+client_id,display_name,dob,source_row
+00005,Fictional Client 005,,6
+00006,,1985-06-15,7
+00007,Fictional Client 007,1985-06-15,8
+00007,Fictional Client 007,1985-06-15,102

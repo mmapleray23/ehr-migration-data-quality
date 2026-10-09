@@ -1,0 +1,18 @@
+table,source_row,record_id,rule,detail
+clients,8,00007,duplicate_id,All rows sharing this ID require review.
+clients,102,00007,duplicate_id,All rows sharing this ID require review.
+admissions,16,A0015,duplicate_id,All rows sharing this ID require review.
+admissions,202,A0015,duplicate_id,All rows sharing this ID require review.
+clients,6,00005,invalid_date,dob
+clients,7,00006,required_missing,display_name
+admissions,6,A0005,client_not_ready,Client must pass validation before admission export.
+admissions,7,A0006,client_not_ready,Client must pass validation before admission export.
+admissions,8,A0007,client_not_ready,Client must pass validation before admission export.
+admissions,11,A0010,orphan_client,Client must pass validation before admission export.
+admissions,12,A0011,unmapped_program,UNMAPPED
+admissions,13,A0012,date_order,Discharge precedes admission.
+admissions,14,A0013,required_missing,admit_date
+admissions,15,A0014,invalid_date,discharge_date
+admissions,106,A0105,client_not_ready,Client must pass validation before admission export.
+admissions,107,A0106,client_not_ready,Client must pass validation before admission export.
+admissions,108,A0107,client_not_ready,Client must pass validation before admission export.

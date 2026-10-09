@@ -1,0 +1,3 @@
+table,input_rows,ready_rows,review_rows,balanced
+clients,101,97,4,True
+admissions,201,188,13,True

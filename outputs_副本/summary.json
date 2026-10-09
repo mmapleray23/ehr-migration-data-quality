@@ -1,0 +1,30 @@
+{
+  "synthetic_demo": true,
+  "scope": "Import preparation only",
+  "rule_violations": 17,
+  "rules": {
+    "client_not_ready": 6,
+    "date_order": 1,
+    "duplicate_id": 4,
+    "invalid_date": 2,
+    "orphan_client": 1,
+    "required_missing": 2,
+    "unmapped_program": 1
+  },
+  "tables": [
+    {
+      "table": "clients",
+      "input_rows": 101,
+      "ready_rows": 97,
+      "review_rows": 4,
+      "balanced": true
+    },
+    {
+      "table": "admissions",
+      "input_rows": 201,
+      "ready_rows": 188,
+      "review_rows": 13,
+      "balanced": true
+    }
+  ]
+}
